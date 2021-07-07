@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   post "/login", to: "session_users#create"
   delete "/logout", to: "session_users#destroy"
 
+  root to: "homes#index"
   resources :users
 end

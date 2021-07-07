@@ -1,0 +1,17 @@
+.container 
+ .row 
+   h1 「夢、目標達成ロードマップ」
+
+ .row
+  .col-sm-6
+    .card
+      .card-body
+        h5.card-title
+          | ログイン
+        = link_to 'ログイン', login_path, class: 'btn btn-raised btn-primary'
+  .col-sm-6
+    .card
+      .card-body
+        h5.card-title
+          | 初めての方
+        = link_to '新規登録', new_user_path, class: 'btn btn-raised btn-primary'

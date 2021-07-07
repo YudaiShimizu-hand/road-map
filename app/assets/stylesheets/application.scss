@@ -14,3 +14,14 @@
  *= require_self
  */
  @import 'bootstrap-material-design/dist/css/bootstrap-material-design';
+
+ body {
+    position: relative;
+    height: 100vh;
+  }
+  
+  main {
+    padding-top: 50px;
+  }
+  
+  
