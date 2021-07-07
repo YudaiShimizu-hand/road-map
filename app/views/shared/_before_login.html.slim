@@ -1,0 +1,14 @@
+nav.navbar.navbar-expand-lg.navbar-light.bg-light
+  .container-fluid
+    a.navbar-brand[href="#"]
+      | 夢、目標達成　ロードマップ
+    button.navbar-toggler[type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"]
+      span.navbar-toggler-icon
+    #navbarNavAltMarkup.collapse.navbar-collapse
+      .navbar-nav
+        li.nav-item 
+         = link_to 'HOME','#', class: 'nav-link'
+        li.nav-item 
+         = link_to 'LOG IN', login_path, class: 'nav-link'
+        li.nav-item 
+         = link_to 'SIGN UP', new_user_path, class: 'nav-link'
